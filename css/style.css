@@ -25,7 +25,7 @@ body {
           justify-content: space-between;
   background-color: #6d328f;
   position: relative;
-  height: 12vh;
+  height: 10vh;
 }
 
 .container .logo-container {
@@ -196,6 +196,7 @@ body {
 .conteudo .section-securyty {
   width: 100vw;
   background-color: #1B1918;
+  padding-right: 1.5em;
 }
 
 .conteudo .section-securyty .action-container {
@@ -218,7 +219,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 15px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -230,7 +230,6 @@ body {
 }
 
 .conteudo .section-securyty .action-compan .image {
-  max-width: 150px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -239,7 +238,8 @@ body {
 }
 
 .conteudo .section-securyty .action-compan .image img {
-  width: 100%;
+  width: 25vw;
+  margin-right: 25px;
 }
 
 .conteudo .section-securyty .secu {
@@ -263,8 +263,8 @@ body {
             transform: translateY(0);
   }
   50% {
-    -webkit-transform: translateY(-8px);
-            transform: translateY(-8px);
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
   }
 }
 
@@ -274,8 +274,120 @@ body {
             transform: translateY(0);
   }
   50% {
-    -webkit-transform: translateY(-8px);
-            transform: translateY(-8px);
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
   }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(#3575be), to(#6015a7));
+  background: linear-gradient(transparent, #3575be, #6015a7);
+  border-radius: 6px;
+}
+
+.conteudo .card-action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.conteudo .card-action .action-text {
+  margin-top: 8px;
+}
+
+.conteudo .card-action .action-text::after {
+  content: '';
+  text-align: center;
+  margin: 2px auto;
+  display: block;
+  width: 50%;
+  height: 2px;
+  background-color: #bd9015;
+}
+
+.conteudo .card-action .action-text h1 {
+  font-size: 7vw;
+  text-transform: uppercase;
+  color: #CF9E16;
+}
+
+.conteudo .card-action .cards-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.conteudo .card-action .cards-container .card {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 400px;
+  -webkit-box-shadow: 0 5px 10px #d3beda;
+          box-shadow: 0 5px 10px #d3beda;
+}
+
+.conteudo .card-action .cards-container .card .title-text {
+  padding: 15px;
+  text-align: left;
+}
+
+.conteudo .card-action .cards-container .card .title-text h2 {
+  font-size: 4vw;
+  text-transform: uppercase;
+}
+
+.conteudo .card-action .cards-container .card:nth-child(1) .title-text h2 span {
+  color: #02724B;
+}
+
+.conteudo .card-action .cards-container .card .title-action {
+  max-width: 400px;
+}
+
+.conteudo .card-action .cards-container .card .title-action img {
+  width: 100%;
+}
+
+.conteudo .card-action .cards-container .card .btn {
+  display: block;
+  text-align: left;
+  padding-left: 16px;
+  padding-bottom: 8px;
+}
+
+.conteudo .card-action .cards-container .card .btn a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: whitesmoke;
+  padding: 10px 20px;
+  background-color: #162A5C;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=style.css.map */
