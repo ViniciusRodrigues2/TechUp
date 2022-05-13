@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@media screen and (min-width:700px) {
+    .conteudo .content-action  .image{
+        text-align: center;
+    }
+    .conteudo .content-action  .image img{
+        width: 80vw;
+        order: 1;
+    }
+    .conteudo .card-action .cards-container{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+    }
+    .conteudo .card-action .cards-container .card{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+    .conteudo .card-action .cards-container .card .title-action{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .conteudo .card-action .cards-container .card .title-action img{
+        max-height: 200px;
+        height: 200px;
+    }
+    .conteudo .card-action .cards-container .embreve{
+        display: none;
+    }
+    .conteudo .card-action .cards-container .card .title-text{
+        text-align: center;
+    }
+    .conteudo .card-action .cards-container .card .title-text p{
+        text-align: left;
+    }
+    .conteudo .card-action .cards-container .card:nth-child(1) .title-text h2 {
+        font-size: 1.3em;
+    }
+    .conteudo .card-action .cards-container .card:nth-child(4) .title-text h2 {
+        font-size: 1.3em;
+    }
+    .conteudo .card-action .cards-container .card:nth-child(3) .title-text h2 {
+        font-size: 1.3em;
+    }
+    .conteudo .card-action .cards-container .card:nth-child(2) .title-text h2 {
+        font-size: 1.3em;
+    }
+}
+@media screen and (min-width:1000px) {
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .container .menu-mobile{
+        display: none;
+    }
+    .container .menu-container{
+        opacity: 1;
+        visibility: visible;
+        height: 100%;
+        overflow: initial;
+        position: sticky;
+        z-index: 1000;
+        display: flex;
+        top: 0;
+        width: 50%;
+        background-color: transparent;
+        margin: 0;
+        text-align: right;
+        justify-content: flex-end;
+    }
+    .container .menu-container .menu{
+        display: flex;
+        list-style: none;
+        padding: 0;
+    }
+    .container .menu-container .menu li a{
+        color: rgb(255, 255, 255);
+        margin: 0;
+        transition: all .3s ease-in-out;
+    }
+    .container .menu-container .menu li a:hover{
+        color: rgb(201, 182, 12);
+    }
+
+
+
+
+    .conteudo .content-action  .left-action h1{
+        font-size: 3em;
+    }
+    .conteudo .content-action  .image{
+        margin: 0;
+    }
+    .conteudo .content-action  .image img{
+        width: 50%;
+    }
+    .conteudo .content-action .btn a{
+       background-color: transparent;
+       border: 2px solid rgb(129, 17, 129);
+       transition: all .4s ease-in-out;
+       color: black;
+    }
+    .conteudo .content-action .btn a:hover{
+        transform: scale(1.1);
+        background-color: purple;
+        color: whitesmoke;
+    }
+    .conteudo .section-securyty .secu img{
+        width: 30%;
+    }
+    .conteudo .card-action .cards-container .card{
+        transition: all .3s ease-in-out;
+    }
+    .conteudo .card-action .cards-container .card:hover .title-text{
+        color: rgb(0, 0, 0);
+    }
+    .conteudo .card-action .cards-container .card:hover{
+        box-shadow: 0 20px 40px #91919185;
+        transform: scale(1.02);
+        cursor: pointer;
+        border-radius: 8px;
+    }
+}

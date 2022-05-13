@@ -1,0 +1,167 @@
+@media screen and (min-width: 700px) {
+  .conteudo .content-action .image {
+    text-align: center;
+  }
+  .conteudo .content-action .image img {
+    width: 80vw;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .conteudo .card-action .cards-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .conteudo .card-action .cards-container .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .conteudo .card-action .cards-container .card .title-action {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .conteudo .card-action .cards-container .card .title-action img {
+    max-height: 200px;
+    height: 200px;
+  }
+  .conteudo .card-action .cards-container .embreve {
+    display: none;
+  }
+  .conteudo .card-action .cards-container .card .title-text {
+    text-align: center;
+  }
+  .conteudo .card-action .cards-container .card .title-text p {
+    text-align: left;
+  }
+  .conteudo .card-action .cards-container .card:nth-child(1) .title-text h2 {
+    font-size: 1.3em;
+  }
+  .conteudo .card-action .cards-container .card:nth-child(4) .title-text h2 {
+    font-size: 1.3em;
+  }
+  .conteudo .card-action .cards-container .card:nth-child(3) .title-text h2 {
+    font-size: 1.3em;
+  }
+  .conteudo .card-action .cards-container .card:nth-child(2) .title-text h2 {
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .container .menu-mobile {
+    display: none;
+  }
+  .container .menu-container {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+    overflow: initial;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    top: 0;
+    width: 50%;
+    background-color: transparent;
+    margin: 0;
+    text-align: right;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .container .menu-container .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  .container .menu-container .menu li a {
+    color: white;
+    margin: 0;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  .container .menu-container .menu li a:hover {
+    color: #c9b60c;
+  }
+  .conteudo .content-action .left-action h1 {
+    font-size: 3em;
+  }
+  .conteudo .content-action .image {
+    margin: 0;
+  }
+  .conteudo .content-action .image img {
+    width: 50%;
+  }
+  .conteudo .content-action .btn a {
+    background-color: transparent;
+    border: 2px solid #811181;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    color: black;
+  }
+  .conteudo .content-action .btn a:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    background-color: purple;
+    color: whitesmoke;
+  }
+  .conteudo .section-securyty .secu img {
+    width: 30%;
+  }
+  .conteudo .card-action .cards-container .card {
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+  .conteudo .card-action .cards-container .card:hover .title-text {
+    color: black;
+  }
+  .conteudo .card-action .cards-container .card:hover {
+    -webkit-box-shadow: 0 20px 40px #91919185;
+            box-shadow: 0 20px 40px #91919185;
+    -webkit-transform: scale(1.02);
+            transform: scale(1.02);
+    cursor: pointer;
+    border-radius: 8px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
